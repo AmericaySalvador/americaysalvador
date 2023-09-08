@@ -7,7 +7,7 @@ function sendWhatsapp() {
   if (document.getElementById("name").value == "") {
     Swal.fire({
       title: '',
-      html: '<img src="..americaysalvador/image/ays/favorites/s.jpg" style="width: 50%; height: 70%;"><h2 style="color: black; font-family: \'Montserrat\', sans-serif;">Ingresa tu nombre</h2>',
+      html: '<img src="/image/ays/favorites/s.jpg" style="width: 50%; height: 70%;"><h2 style="color: black; font-family: \'Montserrat\', sans-serif;">Ingresa tu nombre</h2>',
       background: 'rgba( 251, 250, 249,30.1)',
       confirmButtonText: 'Ok',
       confirmButtonColor: '#000000',
@@ -18,7 +18,7 @@ function sendWhatsapp() {
   if (document.getElementById("email").value == "") {
     Swal.fire({
       title: '',
-      html: '<img src="../image/ays/favorites/s.jpg" style="width: 50%; height: 70%; "><h2 style="color: black;font-family: \'Montserrat\', sans-serif; ">Ingresa tu correo</h2>',
+      html: '<img src="/image/ays/favorites/s.jpg" style="width: 50%; height: 70%; "><h2 style="color: black;font-family: \'Montserrat\', sans-serif; ">Ingresa tu correo</h2>',
       background: 'rgba( 251, 250, 249,30.1)',
       confirmButtonText: 'Ok',
       confirmButtonColor: '#000000',
@@ -29,7 +29,7 @@ function sendWhatsapp() {
   if (document.getElementById("phone").value == "") {
     Swal.fire({
       title: '',
-      html: '<img src="../image/ays/favorites/s.jpg" style="width: 50%; height: 70%;"><h2 style="color: black;font-family: \'Montserrat\', sans-serif; ">Ingresa tu Numero de Telefono</h2>',
+      html: '<img src="/image/ays/favorites/s.jpg" style="width: 50%; height: 70%;"><h2 style="color: black;font-family: \'Montserrat\', sans-serif; ">Ingresa tu Numero de Telefono</h2>',
       background: 'rgba( 251, 250, 249,30.1)',
       confirmButtonText: 'Ok',
       confirmButtonColor: '#000000',
@@ -40,7 +40,7 @@ function sendWhatsapp() {
   if (document.getElementById("guest").value == "") {
     Swal.fire({
       title: '',
-      html: '<img src="../image/ays/favorites/s.jpg" style="width: 50%; height: 70%;"><h2 style="color: black; font-family: \'Montserrat\', sans-serif; ">Parece que no estas invitado</h2>',
+      html: '<img src="/image/ays/favorites/s.jpg" style="width: 50%; height: 70%;"><h2 style="color: black; font-family: \'Montserrat\', sans-serif; ">Parece que no estas invitado</h2>',
       background: 'rgba( 251, 250, 249,30.1)',
       confirmButtonText: 'Ok',
       confirmButtonColor: '#000000',
@@ -83,7 +83,7 @@ function sendWhatsapp() {
     var guest = guest
   
   //borra la url y deja solo index.html
-    window.history.replaceState({}, document.title, "/" + "americaysalvador.html");
+    window.history.replaceState({}, document.title, "/" + "americaysalvador");
 
 
     //pone el valor de la cantidad de invitados en el input de guest y lo bloquea
@@ -111,7 +111,7 @@ function sendWhatsapp() {
 
   Swal.fire({
     title: '',
-    html: '<img src=".americaysalvador/image/ays/favorites/'+nombre+'.jpg" style="width: 100%; height: 100%;">',
+    html: '<img src="/image/ays/favorites/'+nombre+'.jpg" style="width: 100%; height: 100%;">',
     showConfirmButton: false,
     showCloseButton: true,
     focusConfirm: false,
