@@ -111,7 +111,7 @@ function sendWhatsapp() {
 
   Swal.fire({
     title: '',
-    html: '<img src="../image/ays/favorites/'+nombre+'.jpg" style="width: 100%; height: 100%;">',
+    html: '<img src="..americaysalvador/image/ays/favorites/'+nombre+'.jpg" style="width: 100%; height: 100%;">',
     showConfirmButton: false,
     showCloseButton: true,
     focusConfirm: false,
