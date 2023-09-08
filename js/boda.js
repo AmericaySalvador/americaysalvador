@@ -83,7 +83,7 @@ function sendWhatsapp() {
     var guest = guest
   
   //borra la url y deja solo index.html
-    window.history.replaceState({}, document.title, "/" + "index.html");
+    window.history.replaceState({}, document.title, "/" + "americaysalvador.html");
 
 
     //pone el valor de la cantidad de invitados en el input de guest y lo bloquea
