@@ -56,6 +56,7 @@ html {
 .hero {
   background-image: url(https://picsum.photos/id/25/1920/1080);
   background:  url(../image/ays/favorites/foto8.jpg);
+  background-position: center; 
   background-attachment: fixed;
   background-size: cover; 
   color: #FBFAF9;
