@@ -1,6 +1,6 @@
 //Funcion para mandar mensaje de wuasa confirmando la asistencia a la bodilla chida de los novios
 document.addEventListener('DOMContentLoaded', function () {
-    const audioPlayer = document.getElementById('audio-player');
+    const audioPlayer = document.getElementById('aud');
     const playButton = document.getElementById('play-button');
 
     // Función para iniciar la reproducción de audio cuando se toca el botón
