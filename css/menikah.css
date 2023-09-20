@@ -64,7 +64,14 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
-
+@media screen and (max-width: 768px) {
+  .hero {
+    background-image: url(../image/ays/favorites/foto8.jpg); /* Cambiar a la imagen para dispositivos más pequeños */
+    background-size: cover; /* Ajustar tamaño de la imagen de fondo */
+    background-attachment: scroll; /* Quitar la propiedad fixed para que se desplace con el contenido */
+    text-align: center; /* Centrar el contenido de .hero en dispositivos más pequeños */
+  }
+}
 
 @font-face {
   font-family: 'Hello january';
