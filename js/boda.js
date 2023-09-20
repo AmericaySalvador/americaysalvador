@@ -1,29 +1,5 @@
 //Funcion para mandar mensaje de wuasa confirmando la asistencia a la bodilla chida de los novios
-document.addEventListener('DOMContentLoaded', function () {
-    const audioPlayer = document.getElementById('aud');
-    const playButton = document.getElementById('play-button');
 
-    // Función para iniciar la reproducción de audio cuando se toca el botón
-    function playAudio() {
-        if (audioPlayer.paused) {
-            audioPlayer.play();
-        } else {
-            audioPlayer.pause();
-        }
-    }
-
-    // Asociar la función a la acción de tocar el botón
-    playButton.addEventListener('click', playAudio);
-
-    // Detectar el primer toque en cualquier parte de la pantalla y reproducir audio
-    let firstTouch = false;
-    document.addEventListener('touchstart', function () {
-        if (!firstTouch) {
-            playAudio();
-            firstTouch = true;
-        }
-    });
-});
 
 
 function sendWhatsapp() {
