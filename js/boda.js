@@ -128,3 +128,23 @@ function sendWhatsapp() {
 
     }
 
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      const audioPlayer = document.getElementById('audio-player');
+      const playPauseButton = document.getElementById('play-pause-button');
+  
+      // Función para iniciar la reproducción o pausa del audio al hacer clic en el botón
+      function toggleAudio() {
+          if (audioPlayer.paused) {
+              audioPlayer.play();
+              playPauseButton.classList.add('playing');
+          } else {
+              audioPlayer.pause();
+              playPauseButton.classList.remove('playing');
+          }
+      }
+  
+      // Asociar la función al evento click del botón
+      playPauseButton.addEventListener('click', toggleAudio);
+  });
+  

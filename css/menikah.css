@@ -848,3 +848,28 @@ body.preloader-site {
   text-align: center;
   padding: 10px;
 }
+/* Estilo del botón flotante */
+.audio-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  z-index: 999; /* Asegura que esté por encima de otros elementos */
+}
+
+/* Estilo para el icono del botón */
+.audio-button i {
+  font-size: 24px;
+}
+
+/* Cambia el estilo del botón cuando se reproduce el audio */
+.audio-button.playing {
+  background-color: #dc3545; /* Puedes personalizar el color cuando el audio está reproduciéndose */
+}
