@@ -71,7 +71,13 @@ html {
     background-attachment: scroll; /* Quitar la propiedad fixed para que se desplace con el contenido */
     text-align: center; /* Centrar el contenido de .hero en dispositivos más pequeños */
   }
+  .chidowan {
+
+    height: 300px !important;
+  }
 }
+
+
 
 @font-face {
   font-family: 'Hello january';
