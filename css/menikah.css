@@ -64,6 +64,7 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
+
 @media screen and (max-width: 768px) {
   .hero {
     background-image: url(../image/ays/favorites/foto8.jpg); /* Cambiar a la imagen para dispositivos más pequeños */
@@ -71,10 +72,13 @@ html {
     background-attachment: scroll; /* Quitar la propiedad fixed para que se desplace con el contenido */
     text-align: center; /* Centrar el contenido de .hero en dispositivos más pequeños */
   }
-  .chidowan {
-
-    height: 300px !important;
+  .imgchida1 {
+    height: 200px !important;
   }
+  .imgchida2 {
+    height: 200px !important;
+  }
+
 }
 
 
